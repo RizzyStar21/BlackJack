@@ -1,0 +1,17 @@
+﻿<Window x:Class="Blackjack2022.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Blackjack2022"
+        mc:Ignorable="d"
+        Title="Blackjack" Height="500" Width="850">
+    <Grid Background="green">
+        <WrapPanel Name="DealerPanel" Margin="0,26,0,264"/>
+        <Button Name="StartButton" Content="Start" Width="75" Height="25" Click="StartButton_Click" Margin="260,187,464,222"/>
+        <Button Name="HitButton" Content="Hit" Width="75" Height="25" Click="HitButton_Click" Margin="379,187,346,222" IsEnabled="False"/>
+        <Button Name="StandButton" Content="Stand" Width="75" Height="25" Click="StandButton_Click" Margin="480,187,246,222" IsEnabled="False"/>
+        <Button Name="RestartButton" Content="Restart" Width="75" Height="25" Click="RestartButton_Click" Margin="550,187,146,222" Visibility="Hidden"/>
+        <WrapPanel Name="PlayerPanel" Margin="0,261,0,10"/>
+    </Grid>
+</Window>

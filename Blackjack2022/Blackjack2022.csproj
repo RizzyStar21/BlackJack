@@ -1,0 +1,154 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="png\10_of_clubs.png" />
+    <None Remove="png\10_of_diamonds.png" />
+    <None Remove="png\10_of_hearts.png" />
+    <None Remove="png\10_of_spades.png" />
+    <None Remove="png\2_of_clubs.png" />
+    <None Remove="png\2_of_diamonds.png" />
+    <None Remove="png\2_of_hearts.png" />
+    <None Remove="png\2_of_spades.png" />
+    <None Remove="png\3_of_clubs.png" />
+    <None Remove="png\3_of_diamonds.png" />
+    <None Remove="png\3_of_hearts.png" />
+    <None Remove="png\3_of_spades.png" />
+    <None Remove="png\4_of_clubs.png" />
+    <None Remove="png\4_of_diamonds.png" />
+    <None Remove="png\4_of_hearts.png" />
+    <None Remove="png\4_of_spades.png" />
+    <None Remove="png\5_of_clubs.png" />
+    <None Remove="png\5_of_diamonds.png" />
+    <None Remove="png\5_of_hearts.png" />
+    <None Remove="png\5_of_spades.png" />
+    <None Remove="png\6_of_clubs.png" />
+    <None Remove="png\6_of_diamonds.png" />
+    <None Remove="png\6_of_hearts.png" />
+    <None Remove="png\6_of_spades.png" />
+    <None Remove="png\7_of_clubs.png" />
+    <None Remove="png\7_of_diamonds.png" />
+    <None Remove="png\7_of_hearts.png" />
+    <None Remove="png\7_of_spades.png" />
+    <None Remove="png\8_of_clubs.png" />
+    <None Remove="png\8_of_diamonds.png" />
+    <None Remove="png\8_of_hearts.png" />
+    <None Remove="png\8_of_spades.png" />
+    <None Remove="png\9_of_clubs.png" />
+    <None Remove="png\9_of_diamonds.png" />
+    <None Remove="png\9_of_hearts.png" />
+    <None Remove="png\9_of_spades.png" />
+    <None Remove="png\ace_of_clubs.png" />
+    <None Remove="png\ace_of_diamonds.png" />
+    <None Remove="png\ace_of_hearts.png" />
+    <None Remove="png\ace_of_spades.png" />
+    <None Remove="png\ace_of_spades2.png" />
+    <None Remove="png\black_joker.png" />
+    <None Remove="png\jack_of_clubs.png" />
+    <None Remove="png\jack_of_clubs2.png" />
+    <None Remove="png\jack_of_diamonds.png" />
+    <None Remove="png\jack_of_diamonds2.png" />
+    <None Remove="png\jack_of_hearts.png" />
+    <None Remove="png\jack_of_hearts2.png" />
+    <None Remove="png\jack_of_spades.png" />
+    <None Remove="png\jack_of_spades2.png" />
+    <None Remove="png\king_of_clubs.png" />
+    <None Remove="png\king_of_clubs2.png" />
+    <None Remove="png\king_of_diamonds.png" />
+    <None Remove="png\king_of_diamonds2.png" />
+    <None Remove="png\king_of_hearts.png" />
+    <None Remove="png\king_of_hearts2.png" />
+    <None Remove="png\king_of_spades.png" />
+    <None Remove="png\king_of_spades2.png" />
+    <None Remove="png\queen_of_clubs.png" />
+    <None Remove="png\queen_of_clubs2.png" />
+    <None Remove="png\queen_of_diamonds.png" />
+    <None Remove="png\queen_of_diamonds2.png" />
+    <None Remove="png\queen_of_hearts.png" />
+    <None Remove="png\queen_of_hearts2.png" />
+    <None Remove="png\queen_of_spades.png" />
+    <None Remove="png\queen_of_spades2.png" />
+    <None Remove="png\red_joker.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="bin\Debug\net6.0-windows\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="png\10_of_clubs.png" />
+    <Resource Include="png\10_of_diamonds.png" />
+    <Resource Include="png\10_of_hearts.png" />
+    <Resource Include="png\10_of_spades.png" />
+    <Resource Include="png\2_of_clubs.png" />
+    <Resource Include="png\2_of_diamonds.png" />
+    <Resource Include="png\2_of_hearts.png" />
+    <Resource Include="png\2_of_spades.png" />
+    <Resource Include="png\3_of_clubs.png" />
+    <Resource Include="png\3_of_diamonds.png" />
+    <Resource Include="png\3_of_hearts.png" />
+    <Resource Include="png\3_of_spades.png" />
+    <Resource Include="png\4_of_clubs.png" />
+    <Resource Include="png\4_of_diamonds.png" />
+    <Resource Include="png\4_of_hearts.png" />
+    <Resource Include="png\4_of_spades.png" />
+    <Resource Include="png\5_of_clubs.png" />
+    <Resource Include="png\5_of_diamonds.png" />
+    <Resource Include="png\5_of_hearts.png" />
+    <Resource Include="png\5_of_spades.png" />
+    <Resource Include="png\6_of_clubs.png" />
+    <Resource Include="png\6_of_diamonds.png" />
+    <Resource Include="png\6_of_hearts.png" />
+    <Resource Include="png\6_of_spades.png" />
+    <Resource Include="png\7_of_clubs.png" />
+    <Resource Include="png\7_of_diamonds.png" />
+    <Resource Include="png\7_of_hearts.png" />
+    <Resource Include="png\7_of_spades.png" />
+    <Resource Include="png\8_of_clubs.png" />
+    <Resource Include="png\8_of_diamonds.png" />
+    <Resource Include="png\8_of_hearts.png" />
+    <Resource Include="png\8_of_spades.png" />
+    <Resource Include="png\9_of_clubs.png" />
+    <Resource Include="png\9_of_diamonds.png" />
+    <Resource Include="png\9_of_hearts.png" />
+    <Resource Include="png\9_of_spades.png" />
+    <Resource Include="png\ace_of_clubs.png" />
+    <Resource Include="png\ace_of_diamonds.png" />
+    <Resource Include="png\ace_of_hearts.png" />
+    <Resource Include="png\ace_of_spades.png" />
+    <Resource Include="png\ace_of_spades2.png" />
+    <Resource Include="png\black_joker.png" />
+    <Resource Include="png\jack_of_clubs.png" />
+    <Resource Include="png\jack_of_clubs2.png" />
+    <Resource Include="png\jack_of_diamonds.png" />
+    <Resource Include="png\jack_of_diamonds2.png" />
+    <Resource Include="png\jack_of_hearts.png" />
+    <Resource Include="png\jack_of_hearts2.png" />
+    <Resource Include="png\jack_of_spades.png" />
+    <Resource Include="png\jack_of_spades2.png" />
+    <Resource Include="png\king_of_clubs.png" />
+    <Resource Include="png\king_of_clubs2.png" />
+    <Resource Include="png\king_of_diamonds.png" />
+    <Resource Include="png\king_of_diamonds2.png" />
+    <Resource Include="png\king_of_hearts.png" />
+    <Resource Include="png\king_of_hearts2.png" />
+    <Resource Include="png\king_of_spades.png" />
+    <Resource Include="png\king_of_spades2.png" />
+    <Resource Include="png\queen_of_clubs.png" />
+    <Resource Include="png\queen_of_clubs2.png" />
+    <Resource Include="png\queen_of_diamonds.png" />
+    <Resource Include="png\queen_of_diamonds2.png" />
+    <Resource Include="png\queen_of_hearts.png" />
+    <Resource Include="png\queen_of_hearts2.png" />
+    <Resource Include="png\queen_of_spades.png" />
+    <Resource Include="png\queen_of_spades2.png" />
+    <Resource Include="png\red_joker.png" />
+  </ItemGroup>
+
+</Project>
